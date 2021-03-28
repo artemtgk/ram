@@ -1,0 +1,135 @@
+html {
+  height: 100%;
+}
+body {
+  background: url(../images/fon.jpg) no-repeat;
+  margin: 0;
+  height: 100%;
+  background-size: cover;
+}
+.hr{
+  color:red;
+}
+a {
+  color: 000000;
+  text-decoration: none;
+}
+a:hover {
+  color: fc0000;
+  padding: 2px;
+  font-family: Snell Roundhand, cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: condensed;
+}
+.wrapper {
+  border-right: 0px solid red;
+  border-radius: 15px;
+  width: 1000px;
+  margin: 0 auto;
+  color: black;
+}
+.h2 {
+  font-family: Impact;
+}
+.nav {
+  background-color: red;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+  opacity: 0.4;
+}
+.outline {
+  color: red;
+}
+.outline:hover {
+  color: black;
+}
+.nav:hover {
+  opacity: 1;
+  font-family: Impact;
+}
+.header {
+  padding: 10px;
+  border-right: 2px groove red;
+  border-bottom: 2px groove red;
+  border-top: 2px groove red;
+  border-left: 2px groove red;
+  background-color: #141111;
+  opacity: 0.4;
+}
+.header:hover {
+  opacity: 1;
+}
+.h3 {
+  color: black;
+  font-family: Intro;
+  font-size: 20px;
+}
+h2 {
+  color: black;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+}
+ul {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  font-family: Franklin Gothic Medium, sans-serif;
+}
+
+
+.main {
+  display: flex;
+}
+.left {
+  flex: 1;
+  color: blue;
+  font-family: Intro;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+  background-color:rgb(241, 241, 76);
+  opacity: 0.4;
+}
+.left:hover {
+  opacity: 1;
+}
+.right {
+  border-right: 2px ridge red;
+  border-bottom: 2px ridge red;
+  border-top: 2px ridge red;
+  border-left: 2px ridge red;
+  background-color:rgb(241, 241, 76);
+  font-family: Snell Roundhand, cursive;
+  flex: 2;
+  color: red;
+  opacity: 0.4;
+}
+.right:hover {
+  opacity: 1;
+  color: black;
+}
+.content {
+
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+  background-color:rgb(241, 241, 76);
+  opacity: 0.4;
+  color: red;
+  border: solid 1px red;
+}
+.content:hover {
+  color: black;
+  opacity: 1;
+}
+img[type="href"] {
+  border: 2px groove black;
+}
+img[type="href"]:hover {
+  border: 2px inset red;
+  border-radius: 40px;
+}

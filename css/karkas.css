@@ -1,0 +1,40 @@
+html { height: 100%; }
+body{
+	background: url(../images/fon2.jpg) no-repeat;
+	margin: 0; 
+    height: 100%; 
+    background-size: cover; 
+}
+
+.wrapper{
+	background-color:white;
+	width:1000px;
+	margin: 0 auto;
+	color:black;
+}
+.header{
+	background-color:#9966CC;
+	padding:10px;
+}
+h3{	
+	color:white;
+	font-family:arial;
+	font-size:10px
+}	
+.main{
+	display:flex;
+}
+.left{
+	flex:1;
+	border-right:1px solid black;
+	color:blue;
+	background-color:#84DE02;
+}
+.content{
+	flex:3;
+	background-color:#84DE02;
+}
+.footer{
+	border-top:1px solid black;
+	padding:10px;
+}
